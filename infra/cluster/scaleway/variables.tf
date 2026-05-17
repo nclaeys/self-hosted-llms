@@ -31,7 +31,7 @@ variable "kubernetes_version" {
 variable "standard_node_type" {
   description = "Scaleway instance type for CPU nodes (LiteLLM, Open WebUI)"
   type        = string
-  default     = "PRO2-S" # 8 vCPU, 16 GB RAM
+  default     = "DEV1-L" # 4 vCPU, 8 GB RAM
 }
 
 variable "gpu_node_type" {
